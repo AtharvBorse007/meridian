@@ -695,3 +695,11 @@
 {"timestamp": "2026-10-13T06:39:35.324283+00:00", "event_type": "PATCH_APPLIED_TO_WORKSPACE", "level": "INFO", "payload": {"workspace": "/tmp/meridian_tf_sqwbdkko", "modified_files": ["main.tf"]}}
 {"timestamp": "2026-10-13T06:39:36.129371+00:00", "event_type": "VALIDATION_COMPLETED", "level": "INFO", "payload": {"is_valid": true, "format_pass": true, "validate_pass": true, "plan_pass": true, "unexpected_destroy": false, "errors": []}}
 {"timestamp": "2026-10-13T06:39:36.934560+00:00", "event_type": "PR_DRY_RUN_GENERATED", "level": "INFO", "payload": {"title": "MERIDIAN: Reconcile detected infrastructure drift [6945c495cb9336c6]", "branch": "meridian/drift/6945c495cb9336c6", "fingerprint": "6945c495cb9336c6"}}
+{"timestamp": "2026-10-15T12:12:48.349302+00:00", "event_type": "PLAN_PARSED", "level": "INFO", "payload": {"format_version": "1.2", "terraform_version": "1.7.0", "total_changes": 2}}
+{"timestamp": "2026-10-15T12:12:48.350087+00:00", "event_type": "DRIFT_DETECTION_COMPLETED", "level": "INFO", "payload": {"has_drift": true, "total_drifted": 2, "overall_risk": "HIGH", "fingerprint": "6945c495cb9336c6"}}
+{"timestamp": "2026-10-15T12:12:48.350945+00:00", "event_type": "PLAN_PARSED", "level": "INFO", "payload": {"format_version": "1.2", "terraform_version": "1.7.0", "total_changes": 1}}
+{"timestamp": "2026-10-15T12:12:48.351297+00:00", "event_type": "DRIFT_DETECTION_COMPLETED", "level": "INFO", "payload": {"has_drift": true, "total_drifted": 1, "overall_risk": "LOW", "fingerprint": "95d64f08de1ea960"}}
+{"timestamp": "2026-10-15T12:12:48.351840+00:00", "event_type": "PLAN_PARSED", "level": "INFO", "payload": {"format_version": "1.2", "terraform_version": "1.7.0", "total_changes": 1}}
+{"timestamp": "2026-10-15T12:12:48.352104+00:00", "event_type": "DRIFT_DETECTION_COMPLETED", "level": "INFO", "payload": {"has_drift": true, "total_drifted": 1, "overall_risk": "CRITICAL", "fingerprint": "7f910f098bcfabb6"}}
+{"timestamp": "2026-10-15T12:12:48.352616+00:00", "event_type": "PLAN_PARSED", "level": "INFO", "payload": {"format_version": "1.2", "terraform_version": "1.7.0", "total_changes": 1}}
+{"timestamp": "2026-10-15T12:12:48.352880+00:00", "event_type": "DRIFT_DETECTION_COMPLETED", "level": "INFO", "payload": {"has_drift": true, "total_drifted": 1, "overall_risk": "CRITICAL", "fingerprint": "52cc3f6500dbff90"}}
